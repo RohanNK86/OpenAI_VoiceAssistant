@@ -29,7 +29,7 @@ function VoiceAssistant() {
         setStatus("Processing audio...");
 
         try {
-          const res = await axios.post("http://127.0.0.1:8000/voice", formData);
+          const res = await axios.post("https://voice-assistant-zpww.onrender.com", formData);
           
           setMessages(prev => [
             ...prev,
