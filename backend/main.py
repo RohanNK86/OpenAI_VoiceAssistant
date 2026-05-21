@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 # Load Whisper
-speech_model = whisper.load_model("tiny")
+speech_model = whisper.load_model("tiny.en")
 
 # OpenRouter client
 client = OpenAI(
